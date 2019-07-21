@@ -45,16 +45,16 @@ ___
 10. $ git status
 11. $ git commit -m 'type a comment here'
 12. create new repository on github
-13. copy $ git remote line
-14. $ git remote
-15. copy $ git push origin
-16. login to github
-17. touch README.md // add readme file
-18. $ git add
-19. $ git commit -m 'Added reame'
-20. $ git push
-21. copy url to clone
-22. open new folder 
-23. open git bash
-24. $ git clone url // cloning folder from github
+13. copy $ git remote line //$ git remote add origin url
+14. copy $ git push origin //$ git push -u origin master
+15. login to github
+16. touch README.md // add readme file
+17. $ git add
+18. $ git commit -m 'Added rename'
+19. $ git push
+20. copy url to clone
+21. open new folder 
+22. open git bash
+23. $ git clone url // cloning folder from github
+24. $ git push -u origin master //update file to github
 ```
