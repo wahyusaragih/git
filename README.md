@@ -8,6 +8,8 @@ $ git init  //Iniatialize Local Git Repository
 $ git add <files> //add files to index
 $ git status // Check status of working tree
 $ git commit // Commit Changes in Index
+$ git log // check folder log
+$ git push // update file to remote repository
 ```
 
 ### Remote Respository
