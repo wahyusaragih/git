@@ -63,5 +63,5 @@ ___
 ### Updating files to github
 ```php
 1. $ git commit -m 'type a comment here' //update file to staging area
-2. $ git push -u origin master //push file to github
+2. $ git push //push file to github
 ```
