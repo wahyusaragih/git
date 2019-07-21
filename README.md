@@ -18,6 +18,7 @@ $ git push // Push to remote Repository
 $ git pull // Pull latest from remote Repository
 $ git clone // Clone repository into a new repository
 ```
+
 ### Creating .gitignore file
 ```php
 1. create file .gitignore
@@ -25,7 +26,8 @@ $ git clone // Clone repository into a new repository
 3. add folder to ignore inside .gitignore by typing folder name // /dir2
 ```
 ___
-### Step for Beginner (no branch)
+
+### Pushing file to github for Beginner (no branch)
 ```php
 1. $ git init
 2. $ git config --global user.name 'Wahyu Saragih' // add name to git
@@ -56,5 +58,10 @@ ___
 21. open new folder 
 22. open git bash
 23. $ git clone url // cloning folder from github
-24. $ git push -u origin master //update file to github
+```
+
+### Updating files to github
+```php
+1. $ git commit -m 'type a comment here' //update file to staging area
+2. $ git push -u origin master //push file to github
 ```
