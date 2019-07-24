@@ -1,5 +1,7 @@
 # GIT Basic Command
 
+> Download gitbash to improve productivity
+
 ### Fundamental
 ```php
 $ git --version // check git version
@@ -54,9 +56,6 @@ ___
 17. $ git add
 18. $ git commit -m 'Added rename'
 19. $ git push
-20. copy url to clone
-21. open new folder 
-22. open git bash
 ```
 
 ### Updating files to github
@@ -67,5 +66,8 @@ ___
 
 ### Clone repository from github
 ```php
-$ git clone url // cloning folder from github
+1. copy repo url to clone
+2. create new folder 
+3. open git bash
+4. $ git clone url
 ```
