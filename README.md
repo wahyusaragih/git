@@ -21,7 +21,7 @@ $ git pull // Pull latest from remote Repository
 $ git clone // Clone repository into a new repository
 ```
 
-### Creating .gitignore file
+### Using GIT IGNORE
 ```php
 1. create file .gitignore
 2. add file to ignore inside .gitignore by typing file name // index.html
