@@ -7,7 +7,7 @@
 $ git --version // check git version
 $ touch // create file
 $ git init  //Iniatialize Local Git Repository
-$ git add <files> //add files to index
+$ git add file.ext //add files to index
 $ git status // Check status of working tree
 $ git commit // Commit Changes in Index
 $ git log // check folder log
@@ -32,9 +32,9 @@ ___
 ### Pushing file to github for Beginner (no branch)
 ```php
 1. $ git init
-2. $ git config --global user.name 'Wahyu Saragih' // add name to git
-3. $ git config --global user.email 'wahyusaragih@yahoo.com' // add email to git
-4. $ git add <file and ext> // add file to staging area
+2. $ git config --global user.name 'username' // add name to git
+3. $ git config --global user.email 'email' // add email to git
+4. $ git add filename.ext // add file to staging area
 5. $ git status // check git status
 6. $ git rm --cache <file> // remove file from staging area
 7. $ git add *.html // add all html file
@@ -47,21 +47,22 @@ ___
         type ":wq"
         press enter
 10. $ git status
-11. $ git commit -m 'type a comment here'
+11. $ git commit -m 'comment'
 12. create new repository on github
 13. copy $ git remote line //$ git remote add origin url
 14. copy $ git push origin //$ git push -u origin master
 15. login to github
 16. touch README.md // add readme file
 17. $ git add
-18. $ git commit -m 'Added rename'
+18. $ git commit -m 'comment'
 19. $ git push
 ```
 
 ### Updating files to github
 ```php
-1. $ git commit -m 'type a comment here' //update file to staging area
-2. $ git push //push file to github
+1. $ git add // add file to push
+2. $ git commit -m 'comment' //update file to staging area
+3. $ git push //push file to github
 ```
 
 ### Clone repository from github
