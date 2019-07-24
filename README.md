@@ -65,7 +65,7 @@ ___
 2. $ git push //push file to github
 ```
 
-### Clone file from github
+### Clone repository from github
 ```php
 $ git clone url // cloning folder from github
 ```
