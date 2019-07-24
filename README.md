@@ -57,11 +57,15 @@ ___
 20. copy url to clone
 21. open new folder 
 22. open git bash
-23. $ git clone url // cloning folder from github
 ```
 
 ### Updating files to github
 ```php
 1. $ git commit -m 'type a comment here' //update file to staging area
 2. $ git push //push file to github
+```
+
+### Clone file from github
+```php
+$ git clone url // cloning folder from github
 ```
